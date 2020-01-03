@@ -1,4 +1,5 @@
 # auxiliary-bundle
 
 
-尝试着写了一个symfony的bundle
+工具类bundle
+ResponseTool 返回标准化rest数据
