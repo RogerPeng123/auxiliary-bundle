@@ -1,0 +1,37 @@
+{
+  "name": "roger/symfony-auxiliary-bundle",
+  "type": "symfony-bundle",
+  "description": "辅助工具bundle",
+  "license": "MIT",
+  "keywords": [
+    "symfony-admin",
+    "Roger Peng",
+    "Roger"
+  ],
+  "authors": [
+    {
+      "name": "Roger Peng",
+      "email": "aileshang0226@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "symfony/framework-bundle": "5.0.*",
+    "symfony/event-dispatcher": "5.0.*",
+    "symfony/security-bundle": "5.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roger\\AuxiliaryTool\\Bundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-1.0": "1.0.x-dev"
+    }
+  }
+}
